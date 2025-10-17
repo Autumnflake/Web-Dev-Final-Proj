@@ -1,0 +1,225 @@
+.html {
+    color: #ffffff;
+}
+
+.custom-m {
+    margin-left: 300px;
+}
+
+.custom-ml {
+    margin-left: 600px;
+}
+
+nav li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 5px;
+    text-decoration: underline;
+    background-color: #fefad4;
+    font-size: 16px;
+    border: 1.5px Solid #F1828D;
+}
+
+nav li a:hover {
+    color: deepskyblue;
+}
+
+
+body {
+    background-color: midnightblue;
+    font-family: "Times New Roman", Times, serif;
+}
+
+
+img {
+    max-width: 120%;
+    max-height: 100%;
+}
+
+.image-container {
+    width: 300px;
+    height: 400px;
+    display: flex;
+}
+
+.image-container2 {
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin-right: 20px;
+    margin-left: 450px;
+    margin-bottom: 400px;
+    float: left;
+}
+
+
+.navbar-brand {
+    color: black;
+    font-size: x-large;
+    text-decoration: underline;
+}
+
+.navbar {
+    background-color: blanchedalmond;
+}
+
+p {
+    color: white;
+}
+
+
+.bg-body-tertiary {
+    background-color: purple;
+}
+
+
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.fade-in {
+    opacity: 100; /* Start with 0 opacity (hidden) */
+    animation: fadeIn 1s ease-in; /* Use the fadeIn keyframes with a 1-second duration and ease-in-out timing function */
+}
+
+.fade-in1 {
+    opacity: 100; /* Start with 0 opacity (hidden) */
+    animation: fadeIn 4s ease-in; /* Use the fadeIn keyframes with a 1-second duration and ease-in-out timing function */
+}
+
+li {
+    color: midnightblue;
+}
+
+a {
+    color: lightskyblue;
+}
+
+hr {
+    color: #FFFFFF;
+}
+
+.twocol {
+      column-count: 2; /* Set the number of columns to 2 */
+      text-align: center;
+      column-gap: 1px; /* Adjust the gap between columns as needed */
+  }
+
+.twocol1 {
+    text-align: center;
+
+}
+
+.centerdot {
+    text-align: center;
+}
+
+.slide-in-left {
+    transform: translateX(-100%);
+    animation: slideFromLeft 1s forwards;
+}
+
+@keyframes slideFromLeft {
+    from { transform: translateX(-100%); }
+    to { transform: translateX(0); }
+}
+
+.element-animation1 {
+    transform: translateX(-100%);
+    animation: slideFromLeft 0.1s forwards;
+}
+
+.element-animation2 {
+    transform: translateX(-100%);
+    animation: slideFromLeft 0.2s forwards;
+}
+
+.element-animation3 {
+    transform: translateX(-100%);
+    animation: slideFromLeft 0.3s forwards;
+}
+
+.element-animation4 {
+    transform: translateX(-100%);
+    animation: slideFromLeft 0.4s forwards;
+}
+
+.element-animation5 {
+    transform: translateX(-100%);
+    animation: slideFromLeft 0.5s forwards;
+}
+
+.element-animation6 {
+    transform: translateX(-100%);
+    animation: slideFromLeft 0.6s forwards;
+}
+
+.element-animation7 {
+    transform: translateX(-100%);
+    animation: slideFromLeft 0.1s forwards;
+}
+
+.element-animation8 {
+    transform: translateX(-100%);
+    animation: slideFromLeft 0.2s forwards;
+}
+
+.element-animation9 {
+    transform: translateX(-100%);
+    animation: slideFromLeft 0.3s forwards;
+}
+
+.element-animation10 {
+    transform: translateX(-100%);
+    animation: slideFromLeft 0.4s forwards;
+}
+
+.element-animation11 {
+    transform: translateX(-100%);
+    animation: slideFromLeft 0.5s forwards;
+}
+
+.element-animation12 {
+    transform: translateX(-100%);
+    animation: slideFromLeft 0.6s forwards;
+}
+
+.icon_right {
+    text-align: right;
+}
+
+.search {
+    color: black;
+}
+
+.shigureui {
+    padding: 220px 0px 0 700px;
+    position: absolute;
+  }
+
+ul {
+    list-style-type: none;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+.logo {
+    width: 175px;
+    height: 75px;
+    max-width: 100%;
+    max-height: 300%;
+}
+
+.line-break::after {
+    content: '\A'; /* '\A' represents a line break */
+    white-space: pre;
+}

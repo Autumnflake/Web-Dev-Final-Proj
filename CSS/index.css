@@ -1,0 +1,127 @@
+.navbar {
+    background-color: blanchedalmond;
+}
+
+body {
+    background-color: midnightblue;
+    font-family: "Times New Roman", Times, serif;
+}
+
+
+img {
+    max-width: 120%;
+    max-height: 100%;
+}
+
+.image-container {
+    width: 500px;
+    height: 720px;
+    display: flex;
+}
+
+.image-container2 {
+    width: 500px;
+    height: 720px;
+    display: block;
+    margin-right: 20px;
+    margin-left: 450px;
+    margin-bottom: 400px;
+    float: left;
+}
+
+
+.navbar-brand {
+    color: black;
+    font-size: x-large;
+    text-decoration: underline;
+}
+
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes slideInLeft {
+    from {
+        transform: translateX(100%);
+    }
+   to {
+       transform: translateX(0);
+   }
+}
+
+@keyframes slideInRight {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+.fade-in {
+    opacity: 100; /* Start with 0 opacity (hidden) */
+    animation: fadeIn 0.6s ease-in; /* Use the fadeIn keyframes with a 1-second duration and ease-in-out timing function */
+}
+
+.fade-in1 {
+    opacity: 100; /* Start with 0 opacity (hidden) */
+    animation: fadeIn 0.6s ease-in; /* Use the fadeIn keyframes with a 1-second duration and ease-in-out timing function */
+}
+
+.slide-left {
+    animation: slideInLeft 0.6s forwards;
+}
+
+.slide-right {
+    animation: slideInRight 0.6s backwards;
+}
+
+.search {
+    color: black;
+}
+
+p {
+    color: white;
+}
+
+
+.icon_right {
+    text-align: right;
+}
+
+hr {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    padding: 40px 0; /* Adjust the padding as needed */
+}
+
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: right;
+    padding: 10px 50px 20px 0; /* Adjust the padding as needed */
+}
+
+.logo {
+    width: 175px;
+    height: 75px;
+    max-width: 100%;
+    max-height: 300%;
+}
+
+.neko {
+    transform: scaleX(-1);
+    position: absolute;
+    padding: 0 200px 0 0px;
+    height: 210px;
+}

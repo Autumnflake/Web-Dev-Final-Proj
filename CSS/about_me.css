@@ -1,0 +1,153 @@
+
+body {
+    background-color: midnightblue;
+    font-family: "Times New Roman", Times, serif;
+}
+
+
+.image-container {
+    width: 600px;
+    height: 400px;
+    display: flex;
+}
+
+h3 {
+    text-align: center;
+    color: white;
+}
+
+hr {
+    border: none; /* Remove the default border styles */
+    border-top: 2px solid #fff; /* Set the thickness and color */
+    margin: 5px 0; /* Add spacing as needed */
+}
+
+.navbar-brand {
+    color: black;
+    font-size: x-large;
+    text-decoration: underline;
+}
+
+.navbar {
+    background-color: blanchedalmond;
+}
+
+
+.next {
+    color: white;
+    text-align: center;
+}
+
+.btn {
+    color: #FFFFFF;
+}
+
+
+p {
+    color: white;
+}
+
+
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+.fade-in {
+    opacity: 100; /* Start with 0 opacity (hidden) */
+    animation: fadeIn 0.6s ease-in; /* Use the fadeIn keyframes with a 1-second duration and ease-in-out timing function */
+}
+
+.fade-in1 {
+    opacity: 100; /* Start with 0 opacity (hidden) */
+    animation: fadeIn 1s ease-in; /* Use the fadeIn keyframes with a 1-second duration and ease-in-out timing function */
+}
+
+.fade-in2 {
+    opacity: 100; /* Start with 0 opacity (hidden) */
+    animation: fadeIn 1.5s ease-in; /* Use the fadeIn keyframes with a 1-second duration and ease-in-out timing function */
+}
+
+.fade-in3 {
+    opacity: 100; /* Start with 0 opacity (hidden) */
+    animation: fadeIn 2s ease-in; /* Use the fadeIn keyframes with a 1-second duration and ease-in-out timing function */
+}
+
+.fade-in4 {
+    opacity: 100; /* Start with 0 opacity (hidden) */
+    animation: fadeIn 2s ease-in; /* Use the fadeIn keyframes with a 1-second duration and ease-in-out timing function */
+}
+
+.fade-in5 {
+    opacity: 100; /* Start with 0 opacity (hidden) */
+    animation: fadeIn 2.2s ease-in; /* Use the fadeIn keyframes with a 1-second duration and ease-in-out timing function */
+}
+
+.fade-in6 {
+    opacity: 100; /* Start with 0 opacity (hidden) */
+    animation: fadeIn 2.3s ease-in; /* Use the fadeIn keyframes with a 1-second duration and ease-in-out timing function */
+}
+
+.fade-in7 {
+    opacity: 100; /* Start with 0 opacity (hidden) */
+    animation: fadeIn 2.5s ease-in; /* Use the fadeIn keyframes with a 1-second duration and ease-in-out timing function */
+}
+
+.fade-in8 {
+    opacity: 100; /* Start with 0 opacity (hidden) */
+    animation: fadeIn 2.6s ease-in; /* Use the fadeIn keyframes with a 1-second duration and ease-in-out timing function */
+}
+
+
+
+
+.textright {
+    flex-grow: 1;
+}
+
+.search {
+    color: black;
+}
+
+.centerpic {
+    text-align: center;
+}
+
+h1 {
+    color: lightsteelblue;
+    font-family: "Brush Script MT";
+    font-size: 150px;
+}
+
+.letterflex {
+    display: inline-flex;
+}
+
+.letter_right {
+    margin-left: 50px;
+}
+
+.bio {
+    font-size: larger;
+}
+
+.icon_right {
+    text-align: right;
+}
+
+.logo {
+    width: 175px;
+    height: 75px;
+    max-width: 100%;
+    max-height: 300%;
+}
+
+h2 {
+    color: white;
+}

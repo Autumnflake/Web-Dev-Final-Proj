@@ -1,0 +1,174 @@
+
+body {
+    background-color: midnightblue;
+    font-family: "Times New Roman", Times, serif;
+}
+
+
+.image-container {
+    width: 600px;
+    height: 400px;
+    display: flex;
+}
+
+
+h1 {
+    color: white;
+}
+
+h3 {
+    text-align: center;
+    color: white;
+}
+
+hr {
+    border: none; /* Remove the default border styles */
+    border-top: 2px solid #fff; /* Set the thickness and color */
+    margin: 5px 0; /* Add spacing as needed */
+}
+
+.navbar-brand {
+    color: black;
+    font-size: x-large;
+    text-decoration: underline;
+}
+
+.navbar {
+    background-color: blanchedalmond;
+}
+
+
+.next {
+    color: white;
+    text-align: center;
+}
+
+.btn {
+    color: #FFFFFF;
+}
+
+
+p {
+    color: white;
+}
+
+
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+.fade-in {
+    opacity: 100; /* Start with 0 opacity (hidden) */
+    animation: fadeIn 1s ease-in; /* Use the fadeIn keyframes with a 1-second duration and ease-in-out timing function */
+}
+
+.fade-in1 {
+    opacity: 100; /* Start with 0 opacity (hidden) */
+    animation: fadeIn 4s ease-in; /* Use the fadeIn keyframes with a 1-second duration and ease-in-out timing function */
+}
+
+
+.slide-in-left {
+    transform: translateX(-100%);
+    animation: slideFromLeft 1s forwards;
+}
+
+@keyframes slideFromLeft {
+    from { transform: translateX(-100%); }
+    to { transform: translateX(0); }
+}
+
+.app {
+    background: darkcyan;
+    width: 90%;
+    max-width: 450px;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.choices {
+    background: darkslategray;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+.element-animation1 {
+    transform: translateX(-100%);
+    animation: slideFromLeft 0.6s forwards;
+}
+
+.element-animation2 {
+    transform: translateX(-100%);
+    animation: slideFromLeft 0.7s forwards;
+}
+
+.element-animation3 {
+    transform: translateX(-100%);
+    animation: slideFromLeft 0.8s forwards;
+}
+
+.element-animation4 {
+    transform: translateX(-100%);
+    animation: slideFromLeft 0.9s forwards;
+}
+
+.choices:hover {
+    background-color: blanchedalmond; /* Change the background color to your preferred hover color */
+    color: black; /* Change the text color to ensure visibility */
+}
+
+.search {
+    color: black;
+}
+
+.icon_right {
+    text-align: right;
+}
+
+/* Bounce animation */
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-20px);
+    }
+    60% {
+        transform: translateY(-10px);
+    }
+}
+
+/* Apply bounce animation to the scoreboard image */
+.image-container img.bounce {
+    animation: bounce 1s ease;
+}
+
+.centerpic {
+    padding: 0px 0 0 575px;
+}
+
+.score0 {
+    padding: 150px 0 0 0px;
+}
+
+.reaction {
+    position: absolute;
+    padding: 70px 0 0 1300px;
+}
+
+.logo {
+    width: 175px;
+    height: 75px;
+    max-width: 100%;
+    max-height: 300%;
+}
