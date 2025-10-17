@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Lab 12: Web Forms">
+    <title>Tommy's Lab 12</title>
+    <link rel="stylesheet" href="../../CSS/site_styles.css">
+</head>
+<body>
+<header>
+  <h1> Web Forms take user Data and are styled using CSS</h1>
+</header>
+
+<div class="image-center">
+<a href="https://www.jal.co.jp/ar/en/" target="_blank"> <img src="../../IMG/JapanAirlines_2011-emblem.png" alt="Japanese airlines" class="fade-in"><br>
+</a></div>
+
+<main class="center">
+
+       <form>
+        <label for="departure_city">Departure City:</label>
+        <select id="departure_city" name="departure_city">
+            <option value="Manila">Manila, Ninoy Aquino Int'l(MNL)Philippines</option>
+            <option value="Illinois">Chicago, Chicago O'Hare Int'l (ORD)United States</option>
+            <option value="Edmonton">Edmonton, Edmonton Int'l(YEG)Canada</option>
+            <option value="Haneda">Tokyo, Haneda (HND)/Narita Int'l(NRT) Japan</option>
+            <option value="Zurich">Zurich, Zurich (ZRH) Switzerland</option>
+        </select>
+    </form><br>
+
+    <form>
+        <label for="Arrival">Arival City:</label>
+        <select id="Arrival" name="Arrival">
+            <option value="Manila">Manila, Ninoy Aquino Int'l(MNL)Philippines</option>
+            <option value="Illinois">Chicago, Chicago O'Hare Int'l (ORD)United States</option>
+            <option value="Edmonton">Edmonton, Edmonton Int'l(YEG)Canada</option>
+            <option value="Haneda">Tokyo, Haneda (HND)/Narita Int'l(NRT) Japan</option>
+            <option value="Haneda">Zurich, Zurich (ZRH) Switzerland</option>
+        </select>
+    </form><br>
+
+    <form>
+        <label for="Class">Cabin class:</label>
+        <select id="Class" name="Class">
+            <option value="Economy">Economy</option>
+            <option value="Premium_Economy">Premium Economy</option>
+            <option value="Business">Business</option>
+            <option value="First">First</option>
+        </select>
+    </form><br>
+
+    <form>
+        <label for="quantity">Passengers:</label>
+        <input type="number" id="quantity" name="quantity" min="0" max="100">
+        <input type="submit" value="Submit">
+    </form><br>
+
+    <form>
+        <label for="Departure">Date of Departure</label>
+        <input type="date" id="Departure" name="Departure">
+    </form><br>
+
+    <form>
+        <label for="Return_date">Return Date</label>
+        <input type="date" id="Return_date" name="Return_date">
+    </form><br>
+
+    <form>
+        <input type="submit" value="Submit" class="color">
+    </form>
+
+</main>
+
+<footer class="color">
+    <hr>
+    <p>&#169; Tommy Reyes, Lab 12  <br> cc or other license info </p>
+</footer>
+
+
+</body>
+</html>

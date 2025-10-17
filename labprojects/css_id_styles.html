@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Lab 6: HTML Lab 6">
+    <title>Tommy's Lab 6</title>
+    <!--Tommy Reyes: CSS Class Styles Lab 6-->
+    <style>
+        /*id styles below ar from openai.chat */
+        #red {color: #FF0000;} /* red */
+        #orange {color: #FFA500;} /* orange */
+        #yellow {color: #FFFF00;} /* yellow */
+        #green {color: #008000;} /* green */
+        #blue {color: #0000FF;} /* blue */
+        #purple {color: #800080;} /* purple */
+        #skyblue  {color: #87CEEB;} /* skyblue */
+        #magenta {color: rgb(255, 0, 255); } /* magenta */
+        #warm_orange {color: rgb(255, 140, 0); } /* warm_orange */
+
+        #introduce_hex {
+            font-weight: bold;
+            font-style: italic;
+
+        }
+
+        #introduce_footer {
+            background-color: darkgreen;
+            color: silver;
+            font-weight: bold;
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+<main>
+    <article>
+        <header>
+            <h1 id="introduce_hex">This text produces the properties for "introduce_hex"</h1>
+        </header>
+
+        <pre>
+            <code id="red"> #red {color: #FF0000;} /* red */</code>
+            <code id="orange"> #orange {color: #FFA500;} /* orange */</code>
+            <code id="yellow"> #yellow {color: #FFFF00;} /* yellow */</code>
+            <code id="green"> #green {color: #008000;} /* green */</code>
+            <code id="blue"> #blue {color: #0000FF;} /* blue */</code>
+            <code id="purple"> #purple {color: #800080;} /* purple */</code>
+            <code id="skyblue"> #skyblue {color: rgb(135, 206, 235);} /* skyblue */</code>
+            <code id="magenta"> #magenta {color: rgb(255, 0, 255); }/* magenta */</code>
+            <code id="warm_orange"> #warm_orange {color: rgb(255, 140, 0); }/* warm_orange */</code>
+        </pre>
+
+        <br>
+
+    </article>
+</main>
+
+<hr>
+
+<footer id="introduce_footer">
+  <p>This is Tommy's footer <br> &#169; <span id="this_year"></span></p>
+</footer>
+
+<script>
+    document.getElementById("this_year").innerHTML =new Date().getUTCFullYear();
+</script>
+</body>
+</html>

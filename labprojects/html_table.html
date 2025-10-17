@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Lab 7: HTML Tables and Design">
+  <title>Tommy's Lab 7</title>
+  <!--Tommy Reyes: CSS Class Styles Lab 7-->
+  <style>
+      table, th, tr, td {
+        border:3px solid #000;}
+
+        tr.of_data{
+          max-height: 10px;
+        }
+
+        h1 {
+          color:#FFF;
+          background-color: darkblue;
+          font-weight: bold;}
+
+        header, h1, footer {
+          /* Your preferred styles for header, h1 , and footer elements */
+        }
+
+        /* Your styles for horizontal rule */
+      hr {
+        border:2px solid green;
+        width:50%
+      }
+
+
+      /* Additional styles for table two */
+
+      #tb_two {
+        table-layout: fixed;
+      }
+
+      /* Table 2 , Adding a fixed width column */
+      #tb_two td:nth-child(n) {
+        background-color: lightsteelblue;
+        width: 250px;
+      }
+
+      /* Additional styles for table three */
+      #tb_three {
+        width: 74%;
+      }
+
+        /* Alternate row shading for table three */
+
+        #tb_three tr:nth-child(even) {
+          background-color: lightcyan;
+
+        }
+
+        /* visible, hidden, scroll and auto */
+
+        #overflow {
+          overflow: scroll;
+          height: 1px;
+        }
+
+        /* border collapse : collapse or separate */
+
+        .collapse_borders {
+          border-collapse: collapse;
+        }
+
+        .shade-title {
+          /* Your styles for shading the title row */
+          background-color: lightgoldenrodyellow;
+        }
+
+        .max-width {
+            width: 89%;
+          /* Your styles for max-width class */
+        }
+
+        /* table-layout: auto (or fixed) */
+
+        .table_layout {
+          table-layout: auto
+        }
+
+        /* empty_cells: show (or hide) */
+
+        .empty_cells {
+          empty-cells: hide;
+        }
+
+        /* CSS for Table Captions */
+
+        .caption_top {
+          caption-side: top;
+        }
+
+        .caption_bottom {
+          caption-side: bottom;
+        }
+
+  </style>
+</head>
+<body>
+
+<header>
+  <h1 class="tile_shade">The tables below are styled using CSS</h1>
+</header>
+
+<main>
+  <table id="tb_one" class="empty_cells">
+  <caption class="caption_bottom"> This is a table without headers</caption>
+    <tr>
+      <td>Row 1:Column1</td>
+      <td>Row 1:Column2</td>
+      <td>Row 1:Column3</td>
+    </tr>
+    <tr>
+      <td>Row 2:Column1</td>
+      <td>Row 2:Column2</td>
+      <td>Row 2:Column3</td>
+    </tr>
+    <tr>
+      <td>Row 3:Column1</td>
+      <td>Row 3:Column2</td>
+      <td>Row 3:Column3</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </table>
+
+  <hr>
+
+  <table id="tb_two" class="collapse_borders">
+    <caption class="caption_top">Caption for Table 2</caption>
+    <thead>
+    <tr class="shade-title">
+    <th>CSS Class</th>
+    <th>CSS Description</th>
+   </tr> </thead>
+    <tbody>
+
+    <tr class="of_data">
+      <td>overflow</td>
+      <td id="overflow">Specifies what happens if content overflows an element's box,
+        Specifies what happens if content overflows an element's box,
+        Specifies what happens if content overflows an element's box,
+        Specifies what happens if content overflows an element's box,
+        Specifies what happens if content overflows an element's box,
+        Specifies what happens if content overflows an element's box,
+        Specifies what happens if content overflows an element's box,
+      </td>
+    </tr>
+
+    <tr>
+      <td>overflow wrap</td>
+      <td>Specifies whether or not to clip the left/right edges of the content if it overflows the element's content area,
+        Specifies whether or not to clip the left/right edges of the content if it overflows the element's content area,
+        Specifies whether or not to clip the left/right edges of the content if it overflows the element's content area,
+      </td>
+    </tr>
+
+    <tr>
+      <td>overflow-x</td>
+      <td>Specifies whether or not to clip the right/left edges of the content if it overflows the element's content area,
+      </td>
+    </tr>
+
+    </tbody>
+  </table>
+
+  <hr>
+
+  <table id="tb_three" class="max-width collapse_borders">
+    <tr class="shade-title">
+      <th>CSS Class</th>
+      <th>Property Attributes</th>
+    </tr>
+
+    <tr>
+      <td>table-layout</td>
+      <td class="table_layout">Defines the algorithm used to layout table cells, rows, and columns.</td>
+    </tr>
+
+    <tr>
+      <td>border-collapse</td>
+      <td class="collapse_borders">Sets whether table borders should collapse into a single border or be separated</td>
+    </tr>
+
+    <tr>
+      <td>caption-side</td>
+      <td class="caption_side">Specifies the placement of a table caption</td>
+    </tr>
+
+    <tr>
+      <td>empty-cells</td>
+      <td class="empty_cells">Specifies whether or not to display borders and background on empty cells in a table.</td>
+    </tr>
+  </table>
+</main>
+
+<footer> <hr> <p>&#169; Tommy Reyes, Lab 7  <br> cc or other license info </p> </footer>
+
+</body>
+</html>
